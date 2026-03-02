@@ -29,6 +29,8 @@ console.log(`Value: ${bool} | Type: ${typeof bool}`);
 console.log(`Value: ${undef} | Type: ${typeof undef}`);
 console.log(`Value: ${empty} | Type: ${typeof empty}`);
 
+
+
 let colors = ["Red", "Blue", "Green", "Yellow", "Orange", "Purple"];
 
 console.log("First Color: " + colors[0]);
@@ -39,10 +41,12 @@ for (let i = 0; i < colors.length; i++) {
   console.log("Index " + i + ": " + colors[i]);
 }
 
+
 let subject = ["social", "science", "maths", "java", "english"];
 for (let i = 0; i < subject.length; i++) {
   console.log(+ i + ": " + subject[i]);
 }
+
 
 let student = {
     name: "Pratham",
@@ -54,6 +58,7 @@ let student = {
 console.log("Student Name:", student.name);
 console.log("Second Skill:", student.skills[1]);
 console.log("Course Name:", student.course);
+
 
 let product = {
   name: "Laptop",
@@ -70,6 +75,7 @@ if (product.inStock == true) {
 } else {
   console.log("Out of Stock");
 }
+
 
 let fruits = {
   tropical: ["mango", "pineapple"],
