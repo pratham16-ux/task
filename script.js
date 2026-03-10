@@ -37,15 +37,21 @@ console.log("First Color: " + colors[0]);
 console.log("Last Color: " + colors[colors.length - 1]);
 console.log("Total Colors: " + colors.length);
 
-for (let i = 0; i < colors.length; i++) {
-  console.log("Index " + i + ": " + colors[i]);
-}
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+console.log(colors[3]);
+console.log(colors[4]);
+console.log(colors[5]);
 
 
 let subject = ["social", "science", "maths", "java", "english"];
-for (let i = 0; i < subject.length; i++) {
-  console.log(+ i + ": " + subject[i]);
-}
+console.log( subjects[index]);
+console.log(subjects[0]);
+console.log(subjects[1]);
+console.log(subjects[2]);
+console.log(subjects[3]);
+console.log(subjects[4]);
 
 
 let student = {
