@@ -23,11 +23,11 @@ let bool = true;
 let undef;
 let empty = null;
 
-console.log(`Value: ${str} | Type: ${typeof str}`);
-console.log(`Value: ${num} | Type: ${typeof num}`);
-console.log(`Value: ${bool} | Type: ${typeof bool}`);
-console.log(`Value: ${undef} | Type: ${typeof undef}`);
-console.log(`Value: ${empty} | Type: ${typeof empty}`);
+console.log(str, typeof str);
+console.log(num, typeof num);
+console.log(bool, typeof c);
+console.log(undef, typeof undef);
+console.log(empty, typeof empty);
 
 
 
