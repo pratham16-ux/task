@@ -25,7 +25,7 @@ let empty = null;
 
 console.log(str, typeof str);
 console.log(num, typeof num);
-console.log(bool, typeof c);
+console.log(bool, typeof bool);
 console.log(undef, typeof undef);
 console.log(empty, typeof empty);
 
