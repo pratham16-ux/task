@@ -45,14 +45,15 @@ console.log(colors[4]);
 console.log(colors[5]);
 
 
-let subject = ["social", "science", "maths", "java", "english"];
-console.log( subjects[index]);
-console.log(subjects[0]);
-console.log(subjects[1]);
-console.log(subjects[2]);
-console.log(subjects[3]);
-console.log(subjects[4]);
 
+let subjects = ["Math", "Science", "English", "History", "Computer"];
+
+
+console.log(0, subjects[0]);
+console.log(1, subjects[1]);
+console.log(2, subjects[2]);
+console.log(3, subjects[3]);
+console.log(4, subjects[4]);
 
 let student = {
     name: "Pratham",
